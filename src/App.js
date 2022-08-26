@@ -1,6 +1,7 @@
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
-
+const App = () => {
+  return (
 <Tabs>
   <TabList>
     <Tab>One</Tab>
@@ -20,3 +21,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
     </TabPanel>
   </TabPanels>
 </Tabs>
+  )
+}
+
+export default App
